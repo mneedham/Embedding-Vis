@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 from sklearn import manifold
 
 # Heatmap
-emb = np.loadtxt("people.emb", delimiter=" ")
-labels = np.loadtxt("people_labels.txt", dtype=np.string_, delimiter=",")
+emb = np.loadtxt("both.emb", delimiter=" ")
+labels = np.loadtxt("both_labels.txt", dtype=np.string_, delimiter=",")
 
 dist = np.ndarray([len(emb), len(emb)])
 
